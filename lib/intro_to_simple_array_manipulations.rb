@@ -36,10 +36,11 @@ another_esoteric_language = "Malbolge"
 list_of_esoteric_programming_languages.insert(another_esoteric_language)
 end
 
-def using_uniq
+def using_uniq(captain_planet_and_the_planeteers)
+  captain_planet_and_the_planeteers.uniq
 end
 
-def using_flatten
+def using_flatten()
 end
 
 def using_delete
