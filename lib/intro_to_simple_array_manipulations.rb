@@ -30,9 +30,9 @@ def using_concat(my_favorite_things, more_favs)
 my_favorite_things.concat(more_favs)
 end
 
-def using_insert(array, new_array)
-array = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
-new_array = "Malbolge"
+def using_insert(list_of_esoteric_programming_languages, another_esoteric_language)
+list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
+another_esoteric_language = "Malbolge"
 array.insert(new_array)
 end
 
