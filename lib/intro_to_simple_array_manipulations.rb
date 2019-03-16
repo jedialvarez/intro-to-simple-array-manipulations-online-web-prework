@@ -15,7 +15,8 @@ great_hits_of_the_nineties.pop
 end
 
 def pop_with_args(chars_in_game_of_thrones)
-chars_in_game_of_thrones.drop(2)
+  chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
+  chars_in_game_of_thrones.drop(2)
 end
 
 def using_shift(my_favorite_cities)
@@ -23,8 +24,7 @@ my_favorite_cities.shift
 end
 
 def shift_with_args(ice_cream_brands)
-  ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-  ice_cream_brands.shift(2)
+ice_cream_brands.shift(2)
 end
 
 def using_concat(concat)
