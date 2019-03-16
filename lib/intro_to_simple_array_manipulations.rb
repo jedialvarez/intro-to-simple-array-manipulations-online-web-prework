@@ -31,7 +31,7 @@ my_favorite_things.concat(more_favs)
 end
 
 def using_insert(array, element)
-array.insert(element, 4)
+element.insert(4)
 end
 
 def using_uniq(captain_planet_and_the_planeteers)
