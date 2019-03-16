@@ -31,7 +31,7 @@ my_favorite_things.concat(more_favs)
 end
 
 def using_insert(list_of_esoteric_programming_languages, another_esoteric_language)
-new_array = array.insert(list_of_esoteric_programming_languages, another_esoteric_language)
+new_array = Array.insert(list_of_esoteric_programming_languages, another_esoteric_language)
 end
 
 def using_uniq
