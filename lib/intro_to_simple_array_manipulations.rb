@@ -31,7 +31,7 @@ my_favorite_things.concat(more_favs)
 end
 
 def using_insert(list_of_esoteric_programming_languages, another_esoteric_language)
-another_esoteric_language.insert(4)
+list_of_esoteric_programming_languages = another_esoteric_language.insert(4)
 end
 
 def using_uniq(captain_planet_and_the_planeteers)
