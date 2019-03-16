@@ -32,7 +32,6 @@ end
 
 def using_insert(array, element)
 element.insert(4)
-
 end
 
 def using_uniq(captain_planet_and_the_planeteers)
